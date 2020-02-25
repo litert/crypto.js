@@ -1,0 +1,92 @@
+{
+    // Use IntelliSense to learn about possible Node.js debug attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "node",
+            "request": "launch",
+            "name": "[LiteRT/Crypto.js] Example - Hash",
+            "program": "${workspaceRoot}/src/examples/01-hash.ts",
+            "cwd": "${workspaceFolder}",
+            "outFiles": [
+                "${workspaceRoot}/lib/*.js",
+                "${workspaceRoot}/lib/**/*.js",
+                "${workspaceRoot}/examples/*.js",
+                "${workspaceRoot}/examples/**/*.js"
+            ],
+            "sourceMaps": true
+        },
+        {
+            "type": "node",
+            "request": "launch",
+            "name": "[LiteRT/Crypto.js] Example - AES With IV",
+            "program": "${workspaceRoot}/src/examples/02-aes.ts",
+            "cwd": "${workspaceFolder}",
+            "outFiles": [
+                "${workspaceRoot}/lib/*.js",
+                "${workspaceRoot}/lib/**/*.js",
+                "${workspaceRoot}/examples/*.js",
+                "${workspaceRoot}/examples/**/*.js"
+            ],
+            "sourceMaps": true
+        },
+        {
+            "type": "node",
+            "request": "launch",
+            "name": "[LiteRT/Crypto.js] Example - AES Without IV",
+            "program": "${workspaceRoot}/src/examples/03-aes-without-iv.ts",
+            "cwd": "${workspaceFolder}",
+            "outFiles": [
+                "${workspaceRoot}/lib/*.js",
+                "${workspaceRoot}/lib/**/*.js",
+                "${workspaceRoot}/examples/*.js",
+                "${workspaceRoot}/examples/**/*.js"
+            ],
+            "sourceMaps": true
+        },
+        {
+            "type": "node",
+            "request": "launch",
+            "name": "[LiteRT/Crypto.js] Example - AES CCM Mode",
+            "program": "${workspaceRoot}/src/examples/04-aes-ccm.ts",
+            "cwd": "${workspaceFolder}",
+            "outFiles": [
+                "${workspaceRoot}/lib/*.js",
+                "${workspaceRoot}/lib/**/*.js",
+                "${workspaceRoot}/examples/*.js",
+                "${workspaceRoot}/examples/**/*.js"
+            ],
+            "sourceMaps": true
+        },
+        {
+            "type": "node",
+            "request": "launch",
+            "name": "[LiteRT/Crypto.js] Example - AES GCM Mode",
+            "program": "${workspaceRoot}/src/examples/05-aes-gcm.ts",
+            "cwd": "${workspaceFolder}",
+            "outFiles": [
+                "${workspaceRoot}/lib/*.js",
+                "${workspaceRoot}/lib/**/*.js",
+                "${workspaceRoot}/examples/*.js",
+                "${workspaceRoot}/examples/**/*.js"
+            ],
+            "sourceMaps": true
+        },
+        {
+            "type": "node",
+            "request": "launch",
+            "name": "[LiteRT/Crypto.js] Debug",
+            "program": "${workspaceRoot}/src/examples/debug.ts",
+            "cwd": "${workspaceFolder}",
+            "outFiles": [
+                "${workspaceRoot}/lib/*.js",
+                "${workspaceRoot}/lib/**/*.js",
+                "${workspaceRoot}/examples/*.js",
+                "${workspaceRoot}/examples/**/*.js"
+            ],
+            "sourceMaps": true
+        }
+    ]
+}

@@ -1,0 +1,9 @@
+/docs/
+/.vscode/
+/examples/
+/tsconfig.json
+/tslint.json
+/.npmignore
+/.gitignore
+/.npmrc
+/test/

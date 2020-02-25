@@ -1,0 +1,41 @@
+{
+  "name": "@litert/crypto",
+  "version": "0.1.0",
+  "description": "A simple crypto API library for LiteRT.",
+  "main": "lib/index.js",
+  "scripts": {
+    "prepare": "npm run rebuild",
+    "build": "echo Using TypeScript && tsc -v && tsc -p .",
+    "build-watch": "echo Using TypeScript && tsc -v && tsc -w -p .",
+    "rebuild": "npm run clean && npm run lint && npm run build",
+    "test": "echo See directory src/examples",
+    "clean": "rm -rf lib examples",
+    "lint": "tslint -p . -c tslint.json"
+  },
+  "author": "Angus.Fenying <fenying@litert.org> (https://fenying.net)",
+  "license": "Apache-2.0",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/litert/crypto.js.git"
+  },
+  "keywords": [
+    "crypto",
+    "hash"
+  ],
+  "bugs": {
+    "url": "https://github.com/litert/crypto.js/issues"
+  },
+  "homepage": "https://github.com/litert/crypto.js#readme",
+  "types": "./lib/index.d.ts",
+  "typings": "./lib/index.d.ts",
+  "devDependencies": {
+    "@types/node": "^13.1.6",
+    "typescript": "^3.4.3"
+  },
+  "engines": {
+    "node": ">=8.6.0"
+  },
+  "dependencies": {
+    "@litert/core": "^1.1.0"
+  }
+}
